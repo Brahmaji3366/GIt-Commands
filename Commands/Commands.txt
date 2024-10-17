@@ -1,0 +1,38 @@
+Steps to Clone github files:
+    Copy the repository file link (https link) and go vs code open terminal if windows use the command "bash" initially
+Commands :
+----------
+
+1.git clone "https link"  : git repo will be fetched to particlar location locally
+2.ls                      : shows list of files present in the repo
+3. ls -a                  : Shows all files including (hidden also)
+    by this command we can check whether the repo is having ".git" file or not {without ".git" we cannot connect with git hub}
+
+    If ".git" file is not available in it, Then use init command
+
+4. git init               : inserts ".git" file into repo
+
+5.git status                : To check the status of git
+
+        Status : 4 types 
+        i)   Untracked  : for new files that are not present in git hub
+        ii)  Modified   : any changes applied in exisisting files
+        iii) Staged     : Ready to commit
+        iv)  Unmodified : No changes done on files
+
+data modified/ created --->  "git add filename" command (staged) ---> "git commit -m "Some message" (Commit to local Git) " ---> "git push origin main"(to push data from local git to remote) --> refresh github we will see changes
+
+
+6. git add .                      ---> to add all modified/new files at a time to staged
+
+7. git commit -m"Commit Message"  ---> to save changes permenantly and ready to move to actual DB
+
+8. git push origin main           ---> to throw the data from local to Remote GitHub repo
+
+9. cd ..                         ----> Inorder to make commander to come outside the folder
+
+10. mkdir file name              ---->  (make directory) to create new folder
+
+11. cd File name                 ---->  to enter into File
+
+12. 
